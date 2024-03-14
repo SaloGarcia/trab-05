@@ -1,0 +1,43 @@
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listaLivros {
+  background-color: #f9f9f9; /* Cor de fundo para lista de livros */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.table {
+  width: 100%;
+}
+
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
